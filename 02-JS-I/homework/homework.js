@@ -190,7 +190,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var salu2 = 'Hola' + nombre + '!'
+  var salu2 = 'Hola {nombre}!'
   return salu2
 }
 
