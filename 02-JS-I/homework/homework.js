@@ -165,10 +165,10 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  Var dubito = Math.round(numero);
+  var dubito = Math.round(numero);
   if (dubito = Math.sign (-x)) {return 'Es negativo';} 
-  else if (dubito = Math.sign (+x) {return 'Es positivo';}
-  else (dubito == 0) return false;
+  else if (dubito = Math.sign (+x)) {return 'Es positivo';}
+  else (dubito == 0); return false
 }
 
 function agregarSimboloExclamacion(str) {
