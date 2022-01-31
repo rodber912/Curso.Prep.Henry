@@ -165,16 +165,17 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  var dubito = Math.round(numero);
-  if (dubito = Math.sign (-x)) {return 'Es negativo';} 
-  else if (dubito = Math.sign (+x)) {return 'Es positivo';}
-  else (dubito == 0); return false
+  if (numero == 0) {return false;} 
+  else if (numero >0) {return 'Es positivo';}
+  else {return 'Es negativo'}
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var agregarsimbol = str;
+  return agregarsimbol += '!';
 }
 
 function combinarNombres(nombre, apellido) {
