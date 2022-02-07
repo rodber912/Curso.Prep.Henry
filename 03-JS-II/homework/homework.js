@@ -5,14 +5,8 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x > y) {
-  console.log(x); }
-  { if (x < y)
-    console.log(y);}
-      {if ( x === y)
-      console.log (x || y);}
-
-    
+  if  (x > y) {return x};
+    return y;
 }
 
 function mayoriaDeEdad(edad) {
@@ -29,6 +23,11 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+  if (status === 1) { return 'Online';
+}
+    else if (status === 2) { return 'Away';
+  }
+      else 'Offline';
 }
 
 function saludo(idioma) {
@@ -38,6 +37,14 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if (idioma === 'aleman') { return 'Guten Tag!';
+}
+    else if (idioma === 'mandarin') { return 'Ni Hao!';
+  }
+      else if (idioma === 'ingles') { return 'Hello!';
+    }
+        else {return 'Hola!';
+      }
 }
 
 function colors(color) {
@@ -48,6 +55,14 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  switch (color) {
+    case 'blue': 'This is blue'
+    case 'red': 'This is red'
+    case 'green': 'This is green'
+    case 'orange': 'This is orange'
+    default: 'Color not found'
+
+  }
 }
 
 function esDiezOCinco(numero) {
