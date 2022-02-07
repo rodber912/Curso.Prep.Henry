@@ -27,7 +27,9 @@ function conection(status) {
 }
     else if (status === 2) { return 'Away';
   }
-      else 'Offline';
+      else {
+        return 'Offline';
+      }
 }
 
 function saludo(idioma) {
@@ -76,7 +78,9 @@ function esDiezOCinco(numero) {
   if (numero === 10 || 5) {
     return true
   }
-  else false
+  else {
+    return false
+  }
 }
 
 function estaEnRango(numero) {
