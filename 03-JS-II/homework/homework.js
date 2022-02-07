@@ -56,11 +56,11 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch (color) {
-    case 'blue': 'This is blue'
+    {case 'blue': 'This is blue'
     case 'red': 'This is red'
     case 'green': 'This is green'
-    case 'orange': 'This is orange'
-    default: 'Color not found'
+    case 'orange': 'This is orange'}
+    {default: 'Color not found'}
 
   }
 }
