@@ -102,11 +102,11 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   switch (numero) {
-    case numero % 3 === 0:
+    case (numero % 3 === 0):
       return 'fizz';
-    case numero % 5 === 0:
+    case (numero % 5 === 0):
       return 'buzz';
-    case numero % 3 === 0 || numero % 5 === 0:
+    case (numero % 3 === 0 || numero % 5 === 0):
       return 'fizzbuzz';
     default:
       return numero;
@@ -121,7 +121,7 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false.
   if (num1 > 0 && num1 > num2 && num1 > num3) {
-    return 'Numero 1 es mayor y positivo';
+    return 'Número 1 es mayor y positivo';
   }
   else if (num1 < 0 || num2 < 0 || num3 < 0) {
     return 'Hay negativos';
@@ -131,6 +131,9 @@ function operadoresLogicos(num1, num2, num3) {
   }
   else if (num3 > num1 || num3 > num2) {
     return ++num3
+  }
+  else {
+    return false;
   }
 }
 
