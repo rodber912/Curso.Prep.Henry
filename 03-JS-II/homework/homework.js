@@ -140,7 +140,7 @@ function esPrimo(numero) {
   for(var i = 2; i <= numero; i++)
         if(numero % i === 0) {
           return 'falso';}
-        else if (numero % i !== 0) {
+        else if {
         return 'true';}
 }
 
